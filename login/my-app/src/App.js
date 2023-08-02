@@ -8,8 +8,9 @@ import { Routes } from 'react-router-dom';
 /*import Navigation from './Navigation';*/
 
 import LoginForm from "./components/loginform";
-import Layout from "./Layout";
 import RedirectPage from "./components/redirectPage";
+import Layout from "./Layout";
+import ImageCaption from "./components/imageCaption";
 
 /*
 function App() {
@@ -26,6 +27,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
 */
 
+
 export default function App() {
   return (
     <div className="page">
@@ -35,6 +37,7 @@ export default function App() {
             {/* Add existing routes here if you have other pages */}
             <Route path="login" element={<LoginForm />} />
             <Route path="redirectPage" element={<RedirectPage />} />
+            <Route path="imageCaption" element={<ImageCaption />} />
           </Route>
         </Routes>
       </BrowserRouter>
@@ -43,4 +46,4 @@ export default function App() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(<App />)
