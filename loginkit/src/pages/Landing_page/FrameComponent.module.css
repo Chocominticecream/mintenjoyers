@@ -1,0 +1,227 @@
+.fetish {
+  position: absolute;
+  top: 21px;
+  left: 132px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-lato);
+  display: inline-block;
+  width: 101px;
+  height: 45px;
+}
+
+.loginPageChild {
+  position: absolute;
+  top: 71px;
+  left: 0;
+  width: 1440px;
+  height: 3px;
+}
+
+.login {
+  top: 26px;
+  left: 1140px;
+  line-height: 28px;
+  display: inline-block;
+  width: 41px;
+  height: 21px;
+}
+
+.blog,
+.captionImage,
+.home,
+.login {
+  position: absolute;
+  font-weight: 500;
+}
+
+.captionImage {
+  top: 26px;
+  left: 1238px;
+  line-height: 28px;
+  display: inline-block;
+  width: 122px;
+  height: 21px;
+}
+
+.blog,
+.home {
+  top: 32px;
+  left: 1043px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 15px;
+}
+
+.home {
+  left: 918px;
+  width: 69px;
+}
+
+.icons8Stripper641 {
+  position: absolute;
+  top: 18px;
+  left: 84px;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.loginPageInner,
+.loginPageItem {
+  position: absolute;
+  left: 467px;
+  border-radius: var(--br-17xl);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 505px;
+}
+
+.loginPageItem {
+  top: 212px;
+  background-color: #e7d6be;
+  height: 580px;
+}
+
+.loginPageInner {
+  top: 382px;
+  background-color: var(--color-white);
+  height: 409px;
+}
+
+.password {
+  position: absolute;
+  top: 521px;
+  left: 521px;
+  font-size: var(--font-size-lg);
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--color-darkgray);
+  display: flex;
+  align-items: center;
+  width: 122px;
+  height: 49px;
+}
+
+.lineDiv {
+  position: absolute;
+  top: 566.5px;
+  left: 520.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 399px;
+  height: 1px;
+}
+
+.email,
+.forgotPassword,
+.signUp {
+  position: absolute;
+  left: 521px;
+  line-height: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  top: 433px;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray);
+  width: 122px;
+  height: 49px;
+}
+
+.forgotPassword,
+.signUp {
+  top: 720px;
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+  font-family: var(--font-lato);
+  width: 84px;
+  height: 50px;
+}
+
+.forgotPassword {
+  top: 721px;
+  left: 722px;
+  width: 168px;
+}
+
+.loginPageChild1 {
+  position: absolute;
+  top: 479.5px;
+  left: 520.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 399px;
+  height: 1px;
+}
+
+.signIn,
+.welcomeBack {
+  position: absolute;
+  line-height: 22px;
+  font-weight: 600;
+  font-family: var(--font-lato);
+  display: flex;
+  align-items: center;
+  height: 83px;
+}
+
+.welcomeBack {
+  top: 261px;
+  left: 612px;
+  font-size: var(--font-size-11xl);
+  width: 225px;
+}
+
+.signIn {
+  top: 582px;
+  left: 521px;
+  font-size: 28px;
+  width: 224px;
+}
+
+.ellipseDiv {
+  position: absolute;
+  top: 594px;
+  left: 803px;
+  border-radius: 50%;
+  background-color: #e084d7;
+  border: 1px solid #744;
+  box-sizing: border-box;
+  width: 61px;
+  height: 60px;
+}
+
+.arrowIcon {
+  position: absolute;
+  top: 617.4px;
+  left: 818.96px;
+  width: 28.04px;
+  height: 14.72px;
+}
+
+.loginPage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 1067px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.loginPageParent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
