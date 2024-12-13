@@ -12,6 +12,7 @@ import RedirectPage from "./components/redirectPage";
 import Layout from "./Layout";
 import ImageCaption from "./components/imageCaption";
 
+import './font.css';
 /*
 function App() {
   return (
